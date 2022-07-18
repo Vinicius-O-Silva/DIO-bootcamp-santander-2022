@@ -2,9 +2,11 @@
 
 Primeiro gera uma chave SSH no terminal;
 
+Ativa o agente;
+
 Depois conecta ela no agente SSH do site do github;
 
-iniciando uma nova pasta
+## Iniciando um novo projeto em nova pasta
 
 ```
 git init
@@ -41,6 +43,24 @@ Verificar o quais remote que tenho e o outro mostra se realmente estou conectado
 git remote
 git remote -v
 ```
+
+Fazendo pull (problema com a versão remota da versão local)
+
+```
+git pull origin master
+```
+
+## Clonando um projeto de outro repositório usando SSH.
+
+Cria uma pasta reservada para o clone, abre ela no terminal;
+
+Copia o SSH do github e cola com o seguinte código:
+
+```
+~/pastareservada$ git clone <SSHdoGitHub>
+```
+
+Ele vai reclamar do Host, que é um host diferente, e pergunta se deseja adicionar a assinatura desse host.  Se sim digita **yes**, caso não, digita **no**.
 
 **OBS: olhar futuramente submodules e subtrees, o que é?
 
