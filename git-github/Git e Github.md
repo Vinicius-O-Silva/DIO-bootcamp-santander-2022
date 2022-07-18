@@ -14,6 +14,7 @@ Comando para verificar o status do repositório
 
 ```
 git status
+git log
 ```
 
 Verificação da lista de comandos:
@@ -26,6 +27,13 @@ Dicas para alterar o nome da branch padrão:
 
 ```
 git branch -m "main"
+```
+
+Verificar o quais remotos que tenho e o outro mostra se realmente estou conectado
+
+```
+git remote
+git remote -v
 ```
 
 **OBS: olhar futuramente submodules e subtrees, o que é?
