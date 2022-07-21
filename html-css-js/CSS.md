@@ -1,5 +1,23 @@
 ## CSS
 
+Atalhos:
+
+div.flex-container + Tab
+
+```html
+<div class="flex-container"> </div>
+```
+
+div.exemplo*3
+
+```html
+<div class="exemplo"></div>
+<div class="exemplo"></div>
+<div class="exemplo"></div>
+```
+
+
+
 ### Display Flex
 
 Qualquer tag sendo ela: div, span, h1, h2, ... a, aplicando o display: flex torna ela um elemento tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
@@ -15,3 +33,40 @@ O comportamento padrão do display flex é: O comportamento de cada item dentro 
 ### Flex Direction
 
 O comportamento padrão do flex direction é a **orientação horizontal**.
+
+```css
+/* row (padrão) / row-reverse / column / column-reverse */
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+```
+
+### Flex-Wrap
+
+Propriedade que define se os itens devem ou não quebrar a linha. Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
+
+**nowrap**: é o padrão, não permite quebra de linha.
+
+**wrap**: permite quebra de linha assim que um dos flex itens não puder mais ser compactado.
+
+**wrap-reverse**: permite quebra de linha assim que um dos flex itens não puder mais ser compactado, porém, na direção contrária da linha acima.
+
+```css
+flex-wrap: nowrap;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+```
+
+### Flex-flow
+
+É a junção do Flex Direction + Flex-Wrap em uma mesma linha.
+
+Ex: 
+
+```css
+exemplo {
+    flex-flow: row-reverse wrap;
+}
+```
+
