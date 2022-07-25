@@ -70,3 +70,17 @@ exemplo {
 }
 ```
 
+### Justify-Content
+
+Se encarrega de alinhar os itens dentro do container de acordo com a direção pretendida e também trata da distribuição de espaçamento entre eles.
+OBS: Caso seus itens esteja pcupando 100% de todo o container, ela não se aplica.
+
+**flex-start**: início do container. 
+
+**flex-end**: final do container.
+
+**center**: ao centro do container.
+
+**space-between**: cria um espaçamento igual entre os elementos.
+
+**space-around**: os espaçamentos do meio são duas vezes maiores que o inicial e final.
