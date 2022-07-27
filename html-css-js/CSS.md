@@ -95,3 +95,41 @@ Permite o alinhamento central no eixo vertical.
 **flex-start**: alinhamento dos itens no início;
 **flex-end**: alinhamento dos itens no final
 **baseline**: alinhamento de acordo com a linha base da tipografia dos itens.
+
+
+### Align-content
+
+**stretch**: (padrão) os flex itens cresçam igualmente;
+**center**: alinhamento dos itens ao centro;
+**flex-start**: alinhamento dos itens no início;
+**flex-end**: alinhamento dos itens no final
+**space-between**: cria um espaçamento igual entre os elementos.
+**space-around**: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+## Flex-items
+
+### Flex-grow
+
+### Flex-basis
+
+### Flex-shrink
+
+### Flex
+É o atalho ou abreviação de escrita para as propriedades: grow, basis e shrink.
+grow: 1, basis: auto, shrink: 0.
+
+ flex: 1;
+grow: 1, shrink: 1, basis: 0
+
+ flex: 2;
+grow: 2, shrink: 1, basis: 0
+
+### Align-self
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+**auto**:(padrão) irá respeitar a definição de aligh-items do container.
+**flex-start**: ao início do container;
+**flex-end**: ao final do container;
+**center**: relativo ao centro de acordo com o eixo;
+**stretch**: ocupa todo os espaço relativo;
+**baseline**: utiliza a linha base da tipografia
