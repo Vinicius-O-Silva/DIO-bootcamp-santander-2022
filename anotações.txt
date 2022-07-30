@@ -1,1 +1,7 @@
+OBS de arquitetura: É muito comum encontrar os arquivos como imagens, vídeos, .js, entre outros, encontrar
+dentro de uma pasta chamada assets. Com exceção do html.
 
+Tarefas:
+Concluir o bankline implementando o Angular;
+praticar mais responsividade;
+melhorar o contador;
