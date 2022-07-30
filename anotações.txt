@@ -5,3 +5,4 @@ Tarefas:
 Concluir o bankline implementando o Angular;
 praticar mais responsividade;
 melhorar o contador;
+atividade to-do-list js stebsnusch
