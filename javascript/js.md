@@ -40,3 +40,13 @@ if (condition) {
 } else {
     expressao2
 }
+
+**hoisting** - é atribuir uma valor à variavel sem declarar ela.
+console.clear() - limpa o console do navegador
+frase.split(" ") - separa a frase por espaços, dá para saber quantas palavras existem na frase.
+
+```
+//Objeto
+Objeto.keys(nomedoObj)      // mostra as chaves do objeto
+Objeto.values(nomedoObj)    // mostra os valores do objeto
+```
