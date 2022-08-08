@@ -1,5 +1,6 @@
 package dio.gof;
 
+import dio.gof.facade.Facade;
 import dio.gof.singleton.SingletonEager;
 import dio.gof.singleton.SingletonLazy;
 import dio.gof.singleton.SingletonLazyHolder;
@@ -8,7 +9,9 @@ import dio.gof.strategy.*;
 public class Test {
     public static void main(String[] args) {
         // Testes relacionados ao Design Pattern
+
         // Singleton
+
         SingletonLazy lazy = SingletonLazy.getInstancia();
         System.out.println(lazy);
         lazy = SingletonLazy.getInstancia();
@@ -25,6 +28,7 @@ public class Test {
         System.out.println(lazyholder);
 
         // Strategy
+
         Comportamento defensivo = new ComportamentoDefensivo();
         Comportamento normal = new ComportamentoNormal();
         Comportamento agressivo = new ComportamentoAgressivo();
@@ -40,5 +44,10 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        // Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Vinicius", "65585000");
     }
 }
